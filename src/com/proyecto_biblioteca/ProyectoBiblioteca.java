@@ -277,7 +277,7 @@ public class ProyectoBiblioteca {
         System.out.print("-> Apellido: ");
         String apellido = scanner.nextLine().trim();
 
-        System.out.print("-> Nombre de Usuario (ejemplo: guiselle123: ");
+        System.out.print("-> Nombre de Usuario (ejemplo: guiselle123): ");
         String username = scanner.nextLine().trim();
 
         if (rut == null) {

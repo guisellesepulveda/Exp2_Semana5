@@ -19,12 +19,17 @@ import java.util.TreeSet;
  */
 
 public class Biblioteca {
+    // Uso de ArrayList para almacenar objetos de la clase Libro
     private List<Libro> libros;
+    // Uso de HashSet para almacenar objetos de la clase Usuario
     private HashSet<Usuario> usuarios;
+    // Uso de TreeSet para almacenar los usernames de los usuarios en orden
     private TreeSet<String> usernames;
+    // Uso de HashMap para acceder a través de Usuarios a los libros que tienen
     private HashMap<Usuario, List<Libro>> prestamos;
 
     public Biblioteca() {
+
         this.libros = new ArrayList<>();
         this.usuarios = new HashSet<>();
         this.usernames = new TreeSet<>();
